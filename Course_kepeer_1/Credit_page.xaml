@@ -1,0 +1,19 @@
+﻿<Page x:Class="Course_kepeer_1.Credit_page"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Course_kepeer_1"
+      mc:Ignorable="d" 
+      xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+      d:DesignHeight="384" d:DesignWidth="722"
+      Title="Credit_page">
+
+    <Grid>
+        <xctk:WatermarkTextBox Watermark="Amount" x:Name="amount"  SelectionChanged="amount_SelectionChanged"  PreviewTextInput="persent_PreviewTextInput"  Margin="65,54,0,269" BorderThickness="0.5" BorderBrush="Black"  Background="Transparent" Height="61"  VerticalAlignment="Center" FontSize="35"  TextAlignment="Center" HorizontalAlignment="Left" Width="275" />
+        <xctk:WatermarkTextBox Watermark="Month" x:Name="mounth"    SelectionChanged="amount_SelectionChanged" PreviewTextInput="persent_PreviewTextInput"  Margin="0,54,52,269" BorderThickness="0.5" BorderBrush="Black"  Background="Transparent" Height="61"  VerticalAlignment="Center" FontSize="35"  TextAlignment="Center" HorizontalAlignment="Right" Width="275" />
+        <xctk:WatermarkTextBox Watermark="%" x:Name="persent"  SelectionChanged="amount_SelectionChanged" PreviewTextInput="persent_PreviewTextInput" MaxLength="3"  Margin="65,184,0,139" BorderThickness="0.5" BorderBrush="Black"  Background="Transparent" Height="61"  VerticalAlignment="Center" FontSize="35"  TextAlignment="Center" HorizontalAlignment="Left" Width="95" />
+        <xctk:WatermarkTextBox Watermark="Result" x:Name="result"    Margin="0,285,222,38" BorderThickness="0.5" BorderBrush="Black"  Background="Transparent" Height="61"  VerticalAlignment="Center" FontSize="35"  TextAlignment="Center" HorizontalAlignment="Right" Width="275" />
+        <Button x:Name="count" MinHeight="61" MaxHeight="100" Width="150" Content="Count" Click="count_Click" Margin="0,184,117,139" HorizontalAlignment="Right"/>
+    </Grid>
+</Page>

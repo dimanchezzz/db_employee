@@ -1,0 +1,22 @@
+﻿<Page x:Class="Course_kepeer_1.Services"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Course_kepeer_1"
+      mc:Ignorable="d" 
+      MinHeight="534" MinWidth="726"
+      Title="Services">
+
+    <Grid>
+        <ListBox FontSize="25"  Name="services" SelectionChanged="services_SelectionChanged" HorizontalAlignment="Left" Width="365"/>
+       
+        <TextBlock Height="35" x:Name="term" MinWidth="100"  FontSize="25" Margin="385,30,0,0" HorizontalAlignment="Left" Width="300" VerticalAlignment="Top"/>
+        <TextBlock Height="35" x:Name="percent" MinWidth="100"  FontSize="20" Margin="385,90,0,0" HorizontalAlignment="Left" Width="300" VerticalAlignment="Top"/>
+        <TextBlock Height="35" x:Name="restrict" MinWidth="100"  FontSize="20" Margin="385,150,0,0" HorizontalAlignment="Left" Width="300" VerticalAlignment="Top"/>
+        <TextBlock Height="35" x:Name="date_create" MinWidth="100"  FontSize="20" Margin="385,210,0,0" HorizontalAlignment="Left" Width="331" VerticalAlignment="Top"/>
+        <TextBlock Height="70" x:Name="comment" MinWidth="100" TextWrapping="Wrap"  FontSize="20" Margin="385,270,0,0" HorizontalAlignment="Left" Width="300" VerticalAlignment="Top"/>
+        <Button Height="40" Name="drop" Width="150" FontSize="20" Content="Drop" Margin="450,400,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_Click"/>
+
+    </Grid>
+</Page>

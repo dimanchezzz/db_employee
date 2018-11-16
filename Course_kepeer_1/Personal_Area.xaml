@@ -1,0 +1,37 @@
+﻿<Page x:Class="Course_kepeer_1.Personal_Area"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Course_kepeer_1"
+      mc:Ignorable="d" 
+     MinHeight="534" MinWidth="726"
+      Title="Personal_Area">
+
+    <Grid>
+        <StackPanel IsEnabled="False" Orientation="Vertical" x:Name="info_panel" Margin="0,0,306,144">
+            
+
+            <StackPanel  Margin="0,10,0,0" Orientation="Horizontal">
+                <TextBlock Text="City:" FontSize="30"/>
+                <TextBox Margin="87,0,0,0" MaxLength="50" x:Name="city"  BorderThickness="3" HorizontalAlignment="Right" Width="250" FontSize="25" />
+            </StackPanel>
+            <StackPanel  Margin="0,10,0,0" Orientation="Horizontal">
+                <TextBlock Text="Number:" FontSize="30"/>
+                <TextBox Margin="28,0,0,0" MaxLength="15" x:Name="phone_number"  BorderThickness="3" HorizontalAlignment="Right" Width="250" FontSize="25" />
+            </StackPanel>
+            <StackPanel Margin="0,10,0,0"   Orientation="Horizontal">
+                <TextBlock Text="Email:" FontSize="30"/>
+                <TextBox Margin="67,0,0,0" MaxLength="30" x:Name="email" BorderThickness="3"  HorizontalAlignment="Right" Width="250" FontSize="25" />
+            </StackPanel>
+            <StackPanel  Margin="0,10,0,0"  Orientation="Horizontal">
+                <TextBlock Text="Password:" FontSize="30"/>
+                <TextBox Margin="15,0,0,0" x:Name="password" BorderThickness="3"  HorizontalAlignment="Right" Width="250" FontSize="25" />
+            </StackPanel>
+        </StackPanel>
+        <Button x:Name="agree" Click="agree_Click" FontSize="30" Height="60" Width="150" Content="Edit" Margin="185,0,0,59" VerticalAlignment="Bottom" HorizontalAlignment="Left" />
+        <Button x:Name="save" Click="save_Click" FontSize="30" Height="60" Width="150" Content="Save" Margin="495,0,0,59" VerticalAlignment="Bottom" HorizontalAlignment="Left" />
+        <Button x:Name="delete" Click="delete_Click" FontSize="30" Height="60" Width="150" Content="Drop" Margin="495,0,0,429" VerticalAlignment="Bottom" HorizontalAlignment="Left" />
+
+    </Grid>
+</Page>

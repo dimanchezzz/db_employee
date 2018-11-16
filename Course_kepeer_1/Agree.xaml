@@ -1,0 +1,55 @@
+﻿<Controls:MetroWindow x:Class="Course_kepeer_1.Agree"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Course_kepeer_1"
+            xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+                      TitleCharacterCasing="Normal"
+                      GlowBrush="{DynamicResource AccentColorBrush}"
+                      RenderOptions.ClearTypeHint="Enabled"
+                      ResizeMode="CanResizeWithGrip"
+                      TextOptions.TextFormattingMode="Display"
+                      WindowStartupLocation="CenterScreen"
+        Title="Agree" Height="600" MaxHeight="600" MinHeight="600" MaxWidth="500" MinWidth="500" Width="500">
+    <Grid>
+        <ScrollViewer>
+            <TextBlock TextWrapping="Wrap" FontSize="14">
+            Are common
+"Keeper Security, Inc. (Keeper Security) provides, advertises and sells Accaunt_kepeer®, 
+a security program for mobile and desktop devices to individual users, local authorities,
+ training and financial institutions, and businesses." Keeper allows end users to enter,
+ store, encrypt, duplicate, transmit and restore confidential and personal "microdata" and "files" 
+on computers and mobile devices in order to protect them from unauthorized persons.
+ "Microdata" is a term that applies to (such as website logins, passwords, social security numbers, 
+bank account numbers, access codes, PIN codes, and personal notes) . Below are the conditions for using the Program and subscription to Keeper.
+ Using the program Keeper, you accept these terms of use. Obligations and rights under these terms of use can not be transferred to third parties.
+Your primary password
+You agree that when using the Program you will need to create a "master password", which you will only use.
+You are responsible for maintaining your primary password and Keeper entries entered, imported or exported using the Program. 
+Keeper Security does not know your primary password. Keeper Security will never ask and will not have permission to ask for your primary password. 
+Keeper Security will under no circumstances have access to your main password or records stored in Keeper.
+You agree not to transfer your primary password to third parties and under no circumstances transfer it to 
+a Keeper Security customer support officer if you contact Keeper Security for assistance in using the Program. 
+In general, you agree not to disclose your primary password to employees, representatives, officials and managers of Keeper Security. 
+Keeper Security is not responsible for the actions of any persons who may abuse your information in Keeper and other resources,
+ or assign them using the main password or information stored in Keeper.
+Be sure to remember your primary password. If you lose or forget your primary password, 
+Keeper Security will not be able to help you in gaining access to your entries, because Keeper Security does not have access to your main password and does not know it.
+ Again, it is extremely important that you remember your primary password, as it is required to access your records stored in Keeper.
+Age of the user
+The program is available for use only to persons who have the right to enter into legally binding agreements in accordance with applicable law. 
+Along with the foregoing, the Program is not available for use to persons under the age of 18 years. Using the Program,
+ you confirm that you are over 18 years old. If you do not meet this requirement, you are not allowed to use the Program. 
+If you use Keeper as an employee on the terms of the administered program, you must have the administrator's permission to use the Program.
+You may from time to time provide Keeper with remote access to view your screen only 
+for the purpose of troubleshooting problems that have arisen during the use of the Program. 
+Keeper Security will not have access to your main password or data.
+as well in the case of reading this license agreement by the teacher accepting this course project, 
+he undertakes to place an assessment above 7 points
+
+            </TextBlock>
+        </ScrollViewer>
+    </Grid>
+</Controls:MetroWindow>

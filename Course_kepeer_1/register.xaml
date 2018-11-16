@@ -1,0 +1,65 @@
+﻿<Page x:Class="Course_kepeer_1.register"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Course_kepeer_1"
+      mc:Ignorable="d" 
+       xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+      d:DesignHeight="600" d:DesignWidth="400"
+      Title="register">
+    <Page.Resources>
+        <ControlTemplate x:Key="validationErrorTemplate">
+            <DockPanel>
+                <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+                    <Grid Width="12" Height="12">
+                        <Ellipse Width="12" Height="12" Fill="Red" HorizontalAlignment="Center" VerticalAlignment="Center"                             
+                             ></Ellipse>
+                        <TextBlock Foreground="White" FontWeight="Heavy" FontSize="8" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center"
+                               ToolTip="{Binding ElementName=ErrorAdorner, Path=AdornedElement.(Validation.Errors)[0].ErrorContent}"
+                               >X</TextBlock>
+                    </Grid>
+                    <TextBlock Foreground="Red"  Margin="2,0,0,0" 
+                           Text="{Binding ElementName=ErrorAdorner, Path=AdornedElement.(Validation.Errors)[0].ErrorContent}"
+                           ></TextBlock>
+                </StackPanel>
+                <AdornedElementPlaceholder x:Name="ErrorAdorner" ></AdornedElementPlaceholder>
+            </DockPanel>
+        </ControlTemplate>
+    </Page.Resources>
+    <Grid>
+        <TextBlock  Text="Register" FontSize="30" TextAlignment="Center"  Margin="0,10,0,0"  MinWidth="250" MinHeight="35 " VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <xctk:WatermarkTextBox SelectionChanged="pw1_SelectionChanged" MaxLength="15" PreviewKeyDown="log_PreviewKeyDown" MaxWidth="400" Validation.ErrorTemplate="{StaticResource validationErrorTemplate}" Name="log" Watermark="Name"  BorderThickness="0.5" BorderBrush="Black" Margin="60,70,60,0" Background="Transparent" MinWidth="250" MinHeight="35 "  VerticalAlignment="Top" FontSize="20"  TextAlignment="Center">
+            <xctk:WatermarkTextBox.Text>
+                <Binding Path="Name" Mode="TwoWay" UpdateSourceTrigger="LostFocus">
+                    <Binding.ValidationRules>
+                        <local:LoginValidator></local:LoginValidator>
+                    </Binding.ValidationRules>
+                </Binding>
+            </xctk:WatermarkTextBox.Text>
+        </xctk:WatermarkTextBox>
+        <xctk:WatermarkPasswordBox MaxLength="15" SelectionChanged="pw1_SelectionChanged" Watermark="Password"   MaxWidth="400" PreviewKeyDown="pw1_PreviewKeyDown" Validation.ErrorTemplate="{StaticResource validationErrorTemplate}"  MinWidth="250" MinHeight="35 " BorderThickness="0.5" VerticalAlignment="Top" Background="Transparent" BorderBrush="Black" Margin="60,120,60,0" FontSize="20" ToolTip="Password" Name="pw1"  >
+            <xctk:WatermarkPasswordBox.Text>
+                <Binding Path="Name" Mode="TwoWay" UpdateSourceTrigger="LostFocus">
+                    <Binding.ValidationRules>
+                        <local:PasswordValidator></local:PasswordValidator>
+                    </Binding.ValidationRules>
+                </Binding>
+            </xctk:WatermarkPasswordBox.Text>
+        </xctk:WatermarkPasswordBox>
+        <TextBlock Margin="141,0,185,81" VerticalAlignment="Bottom" Background="Transparent" Text="agreement" MouseDown="Click_agreement" Name="agreement" Mouse.MouseLeave="agreement_MouseLeave" Mouse.MouseMove="TextBlock_MouseMove" Cursor="Hand"/>
+        <xctk:WatermarkTextBox MaxLength="15" SelectionChanged="pw1_SelectionChanged" ToolTip="City" Watermark="City"  MaxWidth="400" MinWidth="250" MinHeight="35 " BorderThickness="0.5" Name="city" Validation.ErrorTemplate="{StaticResource validationErrorTemplate}" BorderBrush="Black" Margin="60,170,60,0" Background="Transparent"   VerticalAlignment="Top" FontSize="20"  TextAlignment="Center">
+        </xctk:WatermarkTextBox>
+        <xctk:WatermarkTextBox MaxLength="30" SelectionChanged="pw1_SelectionChanged" ToolTip="Emal" Watermark="Email"  MaxWidth="400" MinWidth="250" MinHeight="35 " BorderThickness="0.5" Name="email" Validation.ErrorTemplate="{StaticResource validationErrorTemplate}" BorderBrush="Black" Margin="60,220,60,0" Background="Transparent"   VerticalAlignment="Top" FontSize="20"  TextAlignment="Center">
+        </xctk:WatermarkTextBox>
+        <xctk:WatermarkTextBox MaxLength="15" SelectionChanged="pw1_SelectionChanged" Watermark="Phone number"  PreviewTextInput="phone_PreviewTextInput"  MaxWidth="400" PreviewKeyDown="pw1_PreviewKeyDown" Validation.ErrorTemplate="{StaticResource validationErrorTemplate}"  MinWidth="250" MinHeight="35 " BorderThickness="0.5" VerticalAlignment="Top" Background="Transparent" BorderBrush="Black" Margin="60,270,60,0" FontSize="20" ToolTip="Number" Name="phone"  >
+        </xctk:WatermarkTextBox>
+
+        <CheckBox VerticalAlignment="Bottom"  Checked="check_Checked" Unchecked="check_Unchecked" Margin="55,0,234,79" BorderThickness="1" Padding="4,-1,0,0" Name="check">I have read</CheckBox>
+        <Button MinHeight="30" MinWidth="100" IsDefault="True" IsEnabled="False" VerticalAlignment="Bottom" MaxWidth="300" Margin="120,0,120,40" Content="Register" Click="registers_Click"   Name="registers"/>
+        <ComboBox  x:Name="departament"  Height="35" Margin="60,320,60,0" VerticalAlignment="Top" MinWidth="250" MaxWidth="295">
+            <ComboBoxItem IsSelected="True">Credit departament</ComboBoxItem>
+            <ComboBoxItem>Contribution departament</ComboBoxItem>
+        </ComboBox>
+    </Grid>
+</Page>
