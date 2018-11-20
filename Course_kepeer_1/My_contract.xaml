@@ -8,12 +8,25 @@
     MinHeight="534" MinWidth="726"
       Title="My_contract">
 
-    <Grid>
-        <ComboBox Height="40" FontSize="20" Width="320" x:Name="status_contract" Margin="30,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <ComboBoxItem IsSelected="True">New</ComboBoxItem>
-            <ComboBoxItem>Active</ComboBoxItem>
-            <ComboBoxItem>Rejected</ComboBoxItem>
-        </ComboBox>
-        <ListBox SelectionChanged="contract_SelectionChanged" x:Name="contract" Margin="0,100,0,0" HorizontalAlignment="Left" Width="400" Height="290" VerticalAlignment="Top"/>
+    <Grid >
+        <Button x:Name="new" Click="new_Click"  FontSize="30" Height="60" Width="150" Content="new" Margin="10,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Button x:Name="active" Click="active_Click"  FontSize="30" Height="60" Width="150" Content="active" Margin="190,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Button x:Name="rejected" Click="rejected_Click"  FontSize="30" Height="60" Width="155" Content="rejected" Margin="370,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+
+        <ListView  SelectionChanged="listView_SelectionChanged" FontSize="20" x:Name="listView" Margin="0,125,0,0" Height="335" VerticalAlignment="Top" HorizontalAlignment="Left" Width="420">
+            <ListView.View>
+                <GridView >
+                    <GridViewColumn  Width="110" Header="id_client" DisplayMemberBinding="{Binding id_client}"/>
+                    <GridViewColumn Width="150" Header="Name" DisplayMemberBinding="{Binding Name}"/>
+
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <TextBlock Height="35" x:Name="user" MinWidth="100"  FontSize="25" Margin="439,125,0,0" HorizontalAlignment="Left" Width="266" VerticalAlignment="Top"/>
+        <TextBlock Height="35" x:Name="amount" MinWidth="100"  FontSize="25" Margin="439,210,0,0" HorizontalAlignment="Left" Width="266" VerticalAlignment="Top"/>
+        <TextBlock Height="35" x:Name="pay" MinWidth="100"  FontSize="25" Margin="439,295,0,0" HorizontalAlignment="Left" Width="266" VerticalAlignment="Top"/>
+        <TextBlock Height="35" x:Name="date" MinWidth="100"  FontSize="25" Margin="439,380,0,0" HorizontalAlignment="Left" Width="266" VerticalAlignment="Top"/>
+
     </Grid>
 </Page>

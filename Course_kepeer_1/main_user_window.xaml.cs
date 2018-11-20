@@ -32,7 +32,7 @@ namespace Course_kepeer_1
             Id_manager = id;
             date.Content = login.ToString() ;
             Question.onNewUser += Closedf;
-            Delete_User.onNewUser += Closedf;
+            
             Services.delete += cl;
         }
         private void cl()
