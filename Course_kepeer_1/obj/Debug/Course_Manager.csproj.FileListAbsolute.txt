@@ -74,3 +74,5 @@ D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\ob
 D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Course_kepeer_1.pdb
 D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Add_service.g.cs
 D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Add_service.baml
+D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Info_user.g.cs
+D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Info_user.baml

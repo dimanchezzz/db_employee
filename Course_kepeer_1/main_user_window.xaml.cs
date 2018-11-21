@@ -32,7 +32,7 @@ namespace Course_kepeer_1
             Id_manager = id;
             date.Content = login.ToString() ;
             Question.onNewUser += Closedf;
-            
+            My_contract.isEnable += contr;
             Services.delete += cl;
         }
         private void cl()
@@ -100,6 +100,10 @@ namespace Course_kepeer_1
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
             User.Content = new Services();
+        }
+        public void contr()
+        {
+            User.Content = new My_contract();
         }
 
        

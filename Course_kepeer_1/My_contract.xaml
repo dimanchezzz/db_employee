@@ -11,9 +11,9 @@
     <Grid >
         <Button x:Name="new" Click="new_Click"  FontSize="30" Height="60" Width="150" Content="new" Margin="10,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
         <Button x:Name="active" Click="active_Click"  FontSize="30" Height="60" Width="150" Content="active" Margin="190,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
-        <Button x:Name="rejected" Click="rejected_Click"  FontSize="30" Height="60" Width="155" Content="rejected" Margin="370,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Button x:Name="rejected" Click="rejected_Click"  FontSize="30" Height="60" Width="155" Content="decline" Margin="370,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
 
-        <ListView  SelectionChanged="listView_SelectionChanged" FontSize="20" x:Name="listView" Margin="0,125,0,0" Height="335" VerticalAlignment="Top" HorizontalAlignment="Left" Width="420">
+        <ListView  SelectionChanged="listView_SelectionChanged" FontSize="20" x:Name="listView" Margin="0,125,0,0" Height="340" VerticalAlignment="Top" HorizontalAlignment="Left" Width="420">
             <ListView.View>
                 <GridView >
                     <GridViewColumn  Width="110" Header="id_client" DisplayMemberBinding="{Binding id_client}"/>
@@ -23,10 +23,15 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <TextBlock Height="35" x:Name="user" MinWidth="100"  FontSize="25" Margin="439,125,0,0" HorizontalAlignment="Left" Width="266" VerticalAlignment="Top"/>
-        <TextBlock Height="35" x:Name="amount" MinWidth="100"  FontSize="25" Margin="439,210,0,0" HorizontalAlignment="Left" Width="266" VerticalAlignment="Top"/>
-        <TextBlock Height="35" x:Name="pay" MinWidth="100"  FontSize="25" Margin="439,295,0,0" HorizontalAlignment="Left" Width="266" VerticalAlignment="Top"/>
-        <TextBlock Height="35" x:Name="date" MinWidth="100"  FontSize="25" Margin="439,380,0,0" HorizontalAlignment="Left" Width="266" VerticalAlignment="Top"/>
+        <TextBlock Height="35" x:Name="user" MouseMove="user_MouseMove" MouseLeave="user_MouseLeave" MouseDown="user_MouseDown" MinWidth="100"  FontSize="25" Margin="439,125,0,0" HorizontalAlignment="Left" Width="266" VerticalAlignment="Top"/>
+        <TextBlock Height="35" x:Name="amount" MinWidth="100"  FontSize="25" Margin="439,175,0,0" HorizontalAlignment="Left" Width="266" VerticalAlignment="Top"/>
+        <TextBlock Height="35" x:Name="pay" MinWidth="100"  FontSize="25" Margin="439,230,0,0" HorizontalAlignment="Left" Width="266" VerticalAlignment="Top"/>
+        <TextBlock Height="35" x:Name="date" MinWidth="100"  FontSize="25" Margin="439,280,0,0" HorizontalAlignment="Left" Width="266" VerticalAlignment="Top"/>
+        <TextBlock Height="35" x:Name="percent" MinWidth="100"  FontSize="25" Margin="439,330,0,0" HorizontalAlignment="Left" Width="266" VerticalAlignment="Top"/>
+        <TextBlock Height="35" x:Name="restr" MinWidth="100"  FontSize="25" Margin="439,380,0,0" HorizontalAlignment="Left" Width="266" VerticalAlignment="Top"/>
+        <TextBlock Height="35" x:Name="term" MinWidth="100"  FontSize="25" Margin="439,430,0,0" HorizontalAlignment="Left" Width="266" VerticalAlignment="Top"/>
+        <Button Height="40" Name="decline" Content="decline" FontSize="20" Click="Button_Click" Width="170" Margin="60,484,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button Height="40" Name="exept" Width="170" FontSize="20" Click="Button_Click_1" Content="Exept" Margin="480,484,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
 
     </Grid>
 </Page>

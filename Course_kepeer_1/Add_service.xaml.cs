@@ -51,6 +51,7 @@ namespace Course_kepeer_1
                 term.Clear();
                 percent.Clear();           
                 comment.Clear();
+                rest.Clear();
             }
         }
         private void adress_PreviewTextInput(object sender, TextCompositionEventArgs e)

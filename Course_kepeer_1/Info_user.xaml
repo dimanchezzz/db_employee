@@ -1,0 +1,46 @@
+﻿<Controls:MetroWindow x:Class="Course_kepeer_1.Info_user"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Course_kepeer_1"
+        mc:Ignorable="d"
+          xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      BorderThickness="0" 
+                      GlowBrush="Black"
+                      ResizeMode="CanResizeWithGrip"
+                      WindowTransitionsEnabled="False"
+                      WindowStartupLocation="CenterScreen"
+        Title="Info User" MinHeight="400" MinWidth="415" Height="370" Width="415" MaxHeight="370" MaxWidth="415">
+    <Grid>
+        <StackPanel IsEnabled="False" Orientation="Vertical" x:Name="info_panel" Margin="0,0,0,50" >
+
+            <StackPanel  Margin="0,10,0,0" Orientation="Horizontal">
+                <TextBlock Text="Address:" FontSize="30"/>
+                <TextBox Margin="32,0,0,0"  MaxLength="15" x:Name="adress"  BorderThickness="3" HorizontalAlignment="Right" Width="250" FontSize="25" />
+            </StackPanel>
+            <StackPanel Margin="0,10,0,0"  Orientation="Horizontal">
+                <TextBlock Text="City:" FontSize="30"/>
+                <TextBox Margin="88,0,0,0"  x:Name="city" MaxLength="15" BorderThickness="3" HorizontalAlignment="Right" Width="250" FontSize="25" />
+            </StackPanel>
+            <StackPanel  Margin="0,10,0,0" Orientation="Horizontal">
+                <TextBlock Text="Number:" FontSize="30"/>
+                <TextBox Margin="28,0,0,0"   MaxLength="15" x:Name="phone_number"  BorderThickness="3" HorizontalAlignment="Right" Width="250" FontSize="25" />
+            </StackPanel>
+            <StackPanel Margin="0,10,0,0"   Orientation="Horizontal">
+                <TextBlock Text="Email:"  FontSize="30"/>
+                <TextBox Margin="67,0,0,0"  MaxLength="15" x:Name="email" BorderThickness="3"  HorizontalAlignment="Right" Width="250" FontSize="25" />
+            </StackPanel>
+            <StackPanel  Margin="0,10,0,0"  Orientation="Horizontal">
+                <TextBlock Text="Passport:" FontSize="30"/>
+                <TextBox Margin="25,0,0,0"   x:Name="pasport" MaxLength="15"  BorderThickness="3" HorizontalAlignment="Right" Width="250" FontSize="25" />
+            </StackPanel>
+            <StackPanel  Margin="0,10,0,0"  Orientation="Horizontal">
+                <TextBlock Text="Purse:" FontSize="30"/>
+                <TextBox Margin="65,0,0,0"   x:Name="Purse" MaxLength="15"  BorderThickness="3" HorizontalAlignment="Right" Width="250" FontSize="25" />
+            </StackPanel>
+
+        </StackPanel>
+        <Button Width="170" Click="Button_Click" FontSize="20" Height="40" Content="Transaction" Margin="110,319,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+    </Grid>
+</Controls:MetroWindow>
