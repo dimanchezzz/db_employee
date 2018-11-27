@@ -38,7 +38,6 @@ D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\ob
 D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Credit_calc.g.cs
 D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Credit_page.g.cs
 D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\first.g.cs
-D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\History.g.cs
 D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\MainWindow.g.cs
 D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\main_user_window.g.cs
 D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\My_contract.g.cs
@@ -59,7 +58,6 @@ D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\ob
 D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Credit_calc.baml
 D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Credit_page.baml
 D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\first.baml
-D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\History.baml
 D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\MainWindow.baml
 D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\main_user_window.baml
 D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\My_contract.baml
@@ -76,3 +74,9 @@ D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\ob
 D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Add_service.baml
 D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Info_user.g.cs
 D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Info_user.baml
+D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\transaction.g.cs
+D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\transaction.baml
+D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Is_main_manager.g.cs
+D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Is_main_manager.baml
+D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Main_manager_wndw.g.cs
+D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Main_manager_wndw.baml

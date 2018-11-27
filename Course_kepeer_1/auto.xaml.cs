@@ -28,6 +28,11 @@ namespace Course_kepeer_1
             InitializeComponent();
             a = o;
             DataContext = this;
+            Is_main_manager.closeee += cll;
+        }
+        public void cll()
+        {
+            a.Close();
         }
         private void click_reset(object sender, RoutedEventArgs e)
         {
@@ -67,8 +72,10 @@ namespace Course_kepeer_1
                     reader.Close();
                     main_user_window man = new main_user_window(login, id,departament);
                     man.Show();
-                    a.Close();
-                   
+                    cll();
+
+
+
                 }
             }
         }

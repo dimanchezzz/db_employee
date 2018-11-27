@@ -134,11 +134,14 @@
       <DependentUpon>first.xaml</DependentUpon>
     </Compile>
     <Compile Include="Hash.cs" />
-    <Compile Include="History.xaml.cs">
-      <DependentUpon>History.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Info_user.xaml.cs">
       <DependentUpon>Info_user.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Is_main_manager.xaml.cs">
+      <DependentUpon>Is_main_manager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Main_manager_wndw.xaml.cs">
+      <DependentUpon>Main_manager_wndw.xaml</DependentUpon>
     </Compile>
     <Compile Include="main_user_window.xaml.cs">
       <DependentUpon>main_user_window.xaml</DependentUpon>
@@ -167,6 +170,10 @@
       <DependentUpon>Services.xaml</DependentUpon>
     </Compile>
     <Compile Include="ThemeMenagerHelper.cs" />
+    <Compile Include="transaction.xaml.cs">
+      <DependentUpon>transaction.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="XML_user.cs" />
     <Page Include="AccentStyleWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -203,11 +210,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="History.xaml">
+    <Page Include="Info_user.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Info_user.xaml">
+    <Page Include="Is_main_manager.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -226,6 +233,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Main_manager_wndw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="main_user_window.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -247,6 +258,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Services.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="transaction.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

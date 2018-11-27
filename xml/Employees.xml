@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <id>4</id>
+    <departament_name>Credit departament</departament_name>
+    <name>system</name>
+    <city>minsk</city>
+    <phone_number>123</phone_number>
+    <email>dima32155</email>
+    <password>system</password>
+  </Table>
+  <Table>
+    <id>5</id>
+    <departament_name>Contribution departament</departament_name>
+    <name>systemm</name>
+    <city>Dro</city>
+    <phone_number>123</phone_number>
+    <email>hi@mail.ru</email>
+    <password>systemm</password>
+  </Table>
+</NewDataSet>

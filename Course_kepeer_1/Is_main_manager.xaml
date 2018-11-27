@@ -1,0 +1,19 @@
+﻿<Page x:Class="Course_kepeer_1.Is_main_manager"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Course_kepeer_1"
+      mc:Ignorable="d" 
+       xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+      d:DesignHeight="600" d:DesignWidth="400"
+      Title="Is_main_manager">
+
+    <Grid>
+        <TextBlock FontSize="70"   Width="300" Height="100" Name="err"  Margin="40,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <xctk:WatermarkPasswordBox MaxLength="30" SelectionChanged="email_SelectionChanged" ToolTip="Key" Watermark="Key"  MaxWidth="400" MinWidth="250" MinHeight="35 " BorderThickness="0.5" Name="email"  BorderBrush="Black" Margin="60,220,60,0" Background="Transparent"   VerticalAlignment="Top" FontSize="20"  TextAlignment="Center">
+        </xctk:WatermarkPasswordBox>
+        <Button Name="Ok" Content="GO" Click="Ok_Click" Height="50" VerticalAlignment="Top" Margin="115,390,0,0" HorizontalAlignment="Left" Width="150"/>
+
+    </Grid>
+</Page>

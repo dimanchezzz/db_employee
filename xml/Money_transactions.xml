@@ -1,0 +1,251 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <id>31</id>
+    <client_id>1</client_id>
+    <before_operation>40</before_operation>
+    <after_operation>200</after_operation>
+    <date_operatoin>2018-11-20T14:58:17.653+03:00</date_operatoin>
+    <resource>99</resource>
+  </Table>
+  <Table>
+    <id>32</id>
+    <client_id>1</client_id>
+    <before_operation>200</before_operation>
+    <after_operation>230</after_operation>
+    <date_operatoin>2018-11-20T14:59:27.973+03:00</date_operatoin>
+    <resource>hello</resource>
+  </Table>
+  <Table>
+    <id>33</id>
+    <client_id>1</client_id>
+    <before_operation>230</before_operation>
+    <after_operation>270</after_operation>
+    <date_operatoin>2018-11-20T15:16:27.413+03:00</date_operatoin>
+    <resource>fgh</resource>
+  </Table>
+  <Table>
+    <id>34</id>
+    <client_id>1</client_id>
+    <before_operation>270</before_operation>
+    <after_operation>582</after_operation>
+    <date_operatoin>2018-11-20T15:57:12.29+03:00</date_operatoin>
+    <resource>'ff'</resource>
+  </Table>
+  <Table>
+    <id>35</id>
+    <client_id>1</client_id>
+    <before_operation>582</before_operation>
+    <after_operation>703</after_operation>
+    <date_operatoin>2018-11-20T16:00:32.633+03:00</date_operatoin>
+    <resource>'ho'</resource>
+  </Table>
+  <Table>
+    <id>36</id>
+    <client_id>1</client_id>
+    <before_operation>703</before_operation>
+    <after_operation>712</after_operation>
+    <date_operatoin>2018-11-20T16:12:04.943+03:00</date_operatoin>
+    <resource>last</resource>
+  </Table>
+  <Table>
+    <id>37</id>
+    <client_id>1</client_id>
+    <before_operation>712</before_operation>
+    <after_operation>724</after_operation>
+    <date_operatoin>2018-11-20T16:13:35.417+03:00</date_operatoin>
+    <resource>lastt</resource>
+  </Table>
+  <Table>
+    <id>38</id>
+    <client_id>1</client_id>
+    <before_operation>724</before_operation>
+    <after_operation>736</after_operation>
+    <date_operatoin>2018-11-20T19:35:05.2+03:00</date_operatoin>
+    <resource>fo</resource>
+  </Table>
+  <Table>
+    <id>39</id>
+    <client_id>1</client_id>
+    <before_operation>736</before_operation>
+    <after_operation>737</after_operation>
+    <date_operatoin>2018-11-21T21:35:20.753+03:00</date_operatoin>
+    <resource>Credit departament</resource>
+  </Table>
+  <Table>
+    <id>40</id>
+    <client_id>1</client_id>
+    <before_operation>737</before_operation>
+    <after_operation>860</after_operation>
+    <date_operatoin>2018-11-21T23:50:09.49+03:00</date_operatoin>
+    <resource>tel</resource>
+  </Table>
+  <Table>
+    <id>41</id>
+    <client_id>1</client_id>
+    <before_operation>860</before_operation>
+    <after_operation>859</after_operation>
+    <date_operatoin>2018-11-22T09:16:24.613+03:00</date_operatoin>
+    <resource>Credit departament</resource>
+  </Table>
+  <Table>
+    <id>42</id>
+    <client_id>1</client_id>
+    <before_operation>859</before_operation>
+    <after_operation>857</after_operation>
+    <date_operatoin>2018-11-22T09:20:05.81+03:00</date_operatoin>
+    <resource>Credit departament</resource>
+  </Table>
+  <Table>
+    <id>43</id>
+    <client_id>1</client_id>
+    <before_operation>857</before_operation>
+    <after_operation>854</after_operation>
+    <date_operatoin>2018-11-22T09:31:37.847+03:00</date_operatoin>
+    <resource>Credit departament</resource>
+  </Table>
+  <Table>
+    <id>44</id>
+    <client_id>1</client_id>
+    <before_operation>854</before_operation>
+    <after_operation>853</after_operation>
+    <date_operatoin>2018-11-22T09:31:54.59+03:00</date_operatoin>
+    <resource>Credit departament</resource>
+  </Table>
+  <Table>
+    <id>45</id>
+    <client_id>1</client_id>
+    <before_operation>853</before_operation>
+    <after_operation>853</after_operation>
+    <date_operatoin>2018-11-22T09:33:39.823+03:00</date_operatoin>
+    <resource>Credit departament</resource>
+  </Table>
+  <Table>
+    <id>46</id>
+    <client_id>1</client_id>
+    <before_operation>853</before_operation>
+    <after_operation>852</after_operation>
+    <date_operatoin>2018-11-22T09:33:49.287+03:00</date_operatoin>
+    <resource>Credit departament</resource>
+  </Table>
+  <Table>
+    <id>47</id>
+    <client_id>1</client_id>
+    <before_operation>852</before_operation>
+    <after_operation>1181</after_operation>
+    <date_operatoin>2018-11-22T09:56:43.503+03:00</date_operatoin>
+    <resource>Credit departament</resource>
+  </Table>
+  <Table>
+    <id>48</id>
+    <client_id>1</client_id>
+    <before_operation>852</before_operation>
+    <after_operation>532</after_operation>
+    <date_operatoin>2018-11-22T09:57:10.117+03:00</date_operatoin>
+    <resource>Credit departament</resource>
+  </Table>
+  <Table>
+    <id>49</id>
+    <client_id>1</client_id>
+    <before_operation>532</before_operation>
+    <after_operation>1744</after_operation>
+    <date_operatoin>2018-11-22T09:58:30.32+03:00</date_operatoin>
+    <resource>email</resource>
+  </Table>
+  <Table>
+    <id>50</id>
+    <client_id>1</client_id>
+    <before_operation>1744</before_operation>
+    <after_operation>1736</after_operation>
+    <date_operatoin>2018-11-22T10:31:56.983+03:00</date_operatoin>
+    <resource>Credit departament</resource>
+  </Table>
+  <Table>
+    <id>51</id>
+    <client_id>1</client_id>
+    <before_operation>1736</before_operation>
+    <after_operation>1746</after_operation>
+    <date_operatoin>2018-11-22T12:12:03.803+03:00</date_operatoin>
+    <resource>Contribution departament</resource>
+  </Table>
+  <Table>
+    <id>52</id>
+    <client_id>1</client_id>
+    <before_operation>1746</before_operation>
+    <after_operation>1784</after_operation>
+    <date_operatoin>2018-11-22T12:32:11.703+03:00</date_operatoin>
+    <resource>Contribution departament</resource>
+  </Table>
+  <Table>
+    <id>53</id>
+    <client_id>1</client_id>
+    <before_operation>1784</before_operation>
+    <after_operation>1804</after_operation>
+    <date_operatoin>2018-11-22T12:44:43.71+03:00</date_operatoin>
+    <resource>Credit departament</resource>
+  </Table>
+  <Table>
+    <id>54</id>
+    <client_id>1</client_id>
+    <before_operation>1804</before_operation>
+    <after_operation>1779</after_operation>
+    <date_operatoin>2018-11-22T12:46:02.15+03:00</date_operatoin>
+    <resource>Contribution departament</resource>
+  </Table>
+  <Table>
+    <id>55</id>
+    <client_id>1</client_id>
+    <before_operation>1779</before_operation>
+    <after_operation>1757</after_operation>
+    <date_operatoin>2018-11-22T13:46:06.113+03:00</date_operatoin>
+    <resource>Credit departament</resource>
+  </Table>
+  <Table>
+    <id>56</id>
+    <client_id>1</client_id>
+    <before_operation>1757</before_operation>
+    <after_operation>1742</after_operation>
+    <date_operatoin>2018-11-22T14:51:33.997+03:00</date_operatoin>
+    <resource>Contribution departament</resource>
+  </Table>
+  <Table>
+    <id>57</id>
+    <client_id>1</client_id>
+    <before_operation>1742</before_operation>
+    <after_operation>1758</after_operation>
+    <date_operatoin>2018-11-22T19:43:42.763+03:00</date_operatoin>
+    <resource>Contribution departament</resource>
+  </Table>
+  <Table>
+    <id>58</id>
+    <client_id>1</client_id>
+    <before_operation>1758</before_operation>
+    <after_operation>1743</after_operation>
+    <date_operatoin>2018-11-22T20:15:46.507+03:00</date_operatoin>
+    <resource>Contribution departament</resource>
+  </Table>
+  <Table>
+    <id>59</id>
+    <client_id>1</client_id>
+    <before_operation>1743</before_operation>
+    <after_operation>1703</after_operation>
+    <date_operatoin>2018-11-22T20:15:53.25+03:00</date_operatoin>
+    <resource>Contribution departament</resource>
+  </Table>
+  <Table>
+    <id>60</id>
+    <client_id>1</client_id>
+    <before_operation>1703</before_operation>
+    <after_operation>1719</after_operation>
+    <date_operatoin>2018-11-22T21:28:50.567+03:00</date_operatoin>
+    <resource>Contribution departament</resource>
+  </Table>
+  <Table>
+    <id>61</id>
+    <client_id>1</client_id>
+    <before_operation>1719</before_operation>
+    <after_operation>1745</after_operation>
+    <date_operatoin>2018-11-24T10:48:34.237+03:00</date_operatoin>
+    <resource>Credit departament</resource>
+  </Table>
+</NewDataSet>

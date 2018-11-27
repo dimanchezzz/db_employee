@@ -38,6 +38,7 @@
         <StackPanel Orientation="Horizontal" Height="35" VerticalAlignment="Top" >
             <Button Content="Sing in" MinWidth="100" Height="35" VerticalAlignment="Bottom" Click="btn_click_auto"/>
             <Button Margin="10,0,0,0" Content="Sign up" MinWidth="100" Click="claick_register"/>
+            <Button Margin="30,0,0,0" Content="Main manager" MinWidth="100" Click="Button_Click"/>
         </StackPanel>
         <Frame x:Name="Main" Margin="0,35,0,0" NavigationUIVisibility="Hidden" />
     </Grid>

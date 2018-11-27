@@ -1,0 +1,23 @@
+﻿<Controls:MetroWindow x:Class="Course_kepeer_1.transaction"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Course_kepeer_1"
+        mc:Ignorable="d"
+        Title="transaction" MinHeight="534" MinWidth="726">
+    <Grid>
+        <ListView x:Name="listView">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="150" Header="Before operation" DisplayMemberBinding="{Binding before}"/>
+                    <GridViewColumn Width="150" Header="After operation" DisplayMemberBinding="{Binding after}"/>
+                    <GridViewColumn Width="190" Header="Resource" DisplayMemberBinding="{Binding resourc}"/>
+                    <GridViewColumn Width="190" Header="date" DisplayMemberBinding="{Binding date}"/>
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Controls:MetroWindow>

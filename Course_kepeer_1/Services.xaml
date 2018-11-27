@@ -16,7 +16,7 @@
         <TextBlock Height="35" x:Name="restrict" MinWidth="100"  FontSize="20" Margin="385,150,0,0" HorizontalAlignment="Left" Width="300" VerticalAlignment="Top"/>
         <TextBlock Height="35" x:Name="date_create" MinWidth="100"  FontSize="20" Margin="385,210,0,0" HorizontalAlignment="Left" Width="331" VerticalAlignment="Top"/>
         <TextBlock Height="70" x:Name="comment" MinWidth="100" TextWrapping="Wrap"  FontSize="20" Margin="385,270,0,0" HorizontalAlignment="Left" Width="300" VerticalAlignment="Top"/>
-        <Button Height="40" Name="drop" Width="150" FontSize="20" Content="Drop" Margin="450,400,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Height="40" Name="drop" Width="200" FontSize="20" Content="End Contract" Margin="450,400,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_Click"/>
 
     </Grid>
 </Page>

@@ -23,7 +23,6 @@
                 <MenuItem Header="Services " Click="MenuItem_Click" Margin="3,5,0,5"/>
                 <MenuItem Header="Add service" Click="MenuItem_Click_2" Margin="3,5,0,5"/>
                 <MenuItem Header=" Contracts" Click="MenuItem_Click_8" Margin="3,5,0,5"/>
-                <MenuItem Header="History" Click="MenuItem_Click_9" Margin="3,5,0,5"/>
                 <MenuItem Header="Credit  calc" Click="MenuItem_Click_6" Margin="3,5,0,5"/>
                 <MenuItem Header="Calc" Click="MenuItem_Click_5" Margin="3,5,10,5" />
                

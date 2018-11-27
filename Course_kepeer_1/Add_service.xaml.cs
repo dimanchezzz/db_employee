@@ -41,7 +41,24 @@ namespace Course_kepeer_1
         }
         private void agree_Click_1(object sender, RoutedEventArgs e)
         {
-            using(SqlConnection conn= new SqlConnection(Hash.connect_str))
+            using (SqlConnection connection = new SqlConnection(Hash.connect_str_manager))
+            {
+                connection.Open();
+                string str = " select dbo.If_exist_name_service('" + name.Text + "')";
+                SqlCommand cmd = new SqlCommand(str, connection);
+                int a = int.Parse(cmd.ExecuteScalar().ToString());
+                if (a == 1)
+                {
+                    MessageBox.Show("This name exists");
+                    name.Clear();
+                    term.Clear();
+                    percent.Clear();
+                    comment.Clear();
+                    rest.Clear();
+                    return;
+                }
+            }
+            using (SqlConnection conn= new SqlConnection(Hash.connect_str))
             {
                 conn.Open();                           
                 string sql_add = @"exec Insert_service @name='" + name.Text + "',@term=" + term.Text + ",@persent=" + percent.Text + ",@id_emp=" + main_user_window.Id_manager + ",@depart='" + main_user_window.departament + "', @restriction="+rest.Text+ ", @comment='" + comment.Text + "';";

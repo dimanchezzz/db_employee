@@ -21,6 +21,7 @@ namespace Course_kepeer_1
     /// </summary>
     public partial class MainWindow : MetroWindow
     {
+        Window a;
         public MainWindow()
         {
             InitializeComponent();
@@ -39,6 +40,16 @@ namespace Course_kepeer_1
         private void claick_register(object sender, RoutedEventArgs e)
         {
             Main.Content = new register();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Is_main_manager(a);
+
+        }
+         public static void Cl()
+        {
+            
         }
     }
 }

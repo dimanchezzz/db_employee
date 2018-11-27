@@ -12,6 +12,7 @@
         <Button x:Name="new" Click="new_Click"  FontSize="30" Height="60" Width="150" Content="new" Margin="10,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
         <Button x:Name="active" Click="active_Click"  FontSize="30" Height="60" Width="150" Content="active" Margin="190,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
         <Button x:Name="rejected" Click="rejected_Click"  FontSize="30" Height="60" Width="155" Content="decline" Margin="370,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Button x:Name="end" Click="end_Click"  FontSize="30" Height="60" Width="155" Content="end" Margin="550,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
 
         <ListView  SelectionChanged="listView_SelectionChanged" FontSize="20" x:Name="listView" Margin="0,125,0,0" Height="340" VerticalAlignment="Top" HorizontalAlignment="Left" Width="420">
             <ListView.View>
@@ -32,6 +33,7 @@
         <TextBlock Height="35" x:Name="term" MinWidth="100"  FontSize="25" Margin="439,430,0,0" HorizontalAlignment="Left" Width="266" VerticalAlignment="Top"/>
         <Button Height="40" Name="decline" Content="decline" FontSize="20" Click="Button_Click" Width="170" Margin="60,484,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
         <Button Height="40" Name="exept" Width="170" FontSize="20" Click="Button_Click_1" Content="Exept" Margin="480,484,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button Height="40" Visibility="Hidden" Name="topay" Width="170" FontSize="20" Click="topay_Click" Content="topay" Margin="265,484,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
 
     </Grid>
 </Page>

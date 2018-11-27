@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ArrayOfXML_user xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <XML_user>
+    <Passport>123124999</Passport>
+    <Resource>Phone</Resource>
+    <Amount>23.12</Amount>
+  </XML_user>
+  <XML_user>
+    <Passport>123124329</Passport>
+    <Resource>Phone</Resource>
+    <Amount>23</Amount>
+  </XML_user>
+</ArrayOfXML_user>

@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <id>1</id>
+    <name>Dima</name>
+    <address>belorusskaya</address>
+    <city>Minsk</city>
+    <phone_number>32155</phone_number>
+    <email>dima32155@mail.ru</email>
+    <passsword>systemm</passsword>
+    <purse>1745.6038818359375</purse>
+    <status>ready</status>
+    <passport>123124999</passport>
+  </Table>
+</NewDataSet>

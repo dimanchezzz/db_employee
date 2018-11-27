@@ -39,9 +39,14 @@ namespace Course_kepeer_1
                 reader.Close();
             }
         }
+        public delegate void MethodCHeck();
+        public static event MethodCHeck closeee;
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            transaction t = new transaction(Id);
+            t.Show();
+            closeee();
 
         }
     }

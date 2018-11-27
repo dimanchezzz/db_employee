@@ -29,12 +29,13 @@ namespace Course_kepeer_1
             RefreshList();
             drop.IsEnabled = false;
         }
+        string Name;
         private void RefreshList()
         {
             using (SqlConnection connection = new SqlConnection(Hash.connect_str))
             {
                 connection.Open();
-                string take = "exec take_name_serv";
+                string take = "exec take_name_serv @dep='"+main_user_window.departament+"'";
                 SqlCommand commandd = new SqlCommand(take, connection);
                 SqlDataReader reader = commandd.ExecuteReader();
               
@@ -56,6 +57,7 @@ namespace Course_kepeer_1
             
             drop.IsEnabled = true;
             string select = services.SelectedItem.ToString();
+            Name = select;
             using (SqlConnection connection = new SqlConnection(Hash.connect_str))
             {
                 connection.Open();
@@ -81,7 +83,7 @@ namespace Course_kepeer_1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult dialog = MessageBox.Show("Are you sure you want remove the service?", "Sure?", MessageBoxButton.YesNo);
+            MessageBoxResult dialog = MessageBox.Show("Are you sure you want end the service?", "Sure?", MessageBoxButton.YesNo);
             if (dialog == MessageBoxResult.Yes)
             {
                 using (SqlConnection connection = new SqlConnection(Hash.connect_str))

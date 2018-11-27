@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2EBF5C17-0181-493F-AC75-3BEB2650FB07}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Course_kepeer_1</RootNamespace>
+    <AssemblyName>Course_kepeer_1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccentStyleWindow.xaml.cs">
+      <DependentUpon>AccentStyleWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Add_service.xaml.cs">
+      <DependentUpon>Add_service.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Agree.xaml.cs">
+      <DependentUpon>Agree.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="answerValid.cs" />
+    <Compile Include="Calc.xaml.cs">
+      <DependentUpon>Calc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Calc_info.cs" />
+    <Compile Include="Change_pass.xaml.cs">
+      <DependentUpon>Change_pass.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Coding.cs" />
+    <Compile Include="Credit_calc.xaml.cs">
+      <DependentUpon>Credit_calc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Credit_page.xaml.cs">
+      <DependentUpon>Credit_page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="first.xaml.cs">
+      <DependentUpon>first.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hash.cs" />
+    <Compile Include="History.xaml.cs">
+      <DependentUpon>History.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Info_user.xaml.cs">
+      <DependentUpon>Info_user.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Is_main_manager.xaml.cs">
+      <DependentUpon>Is_main_manager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="main_user_window.xaml.cs">
+      <DependentUpon>main_user_window.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoginValidator.cs" />
+    <Compile Include="My_contract.xaml.cs">
+      <DependentUpon>My_contract.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordValidator.cs" />
+    <Compile Include="Personal_Area.xaml.cs">
+      <DependentUpon>Personal_Area.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Question.xaml.cs">
+      <DependentUpon>Question.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="QuValidation.cs" />
+    <Compile Include="register.xaml.cs">
+      <DependentUpon>register.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Services.xaml.cs">
+      <DependentUpon>Services.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ThemeMenagerHelper.cs" />
+    <Compile Include="transaction.xaml.cs">
+      <DependentUpon>transaction.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="auto.xaml.cs">
+      <DependentUpon>auto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ClassDiagram.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0-9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <ReferencePath Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\packages\ControlzEx.3.0.2.4\lib\net45\ControlzEx.dll" />
+    <ReferencePath Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll" />
+    <ReferencePath Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll" />
+    <ReferencePath Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\packages\MahApps.Metro.1.6.2\lib\net45\MahApps.Metro.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Microsoft.CSharp.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\PresentationCore.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\PresentationFramework.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.ComponentModel.DataAnnotations.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.DataSetExtensions.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Net.Http.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Runtime.Serialization.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Security.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Web.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Web.Extensions.Design.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Web.Extensions.dll" />
+    <ReferencePath Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\packages\ControlzEx.3.0.2.4\lib\net45\System.Windows.Interactivity.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xaml.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.Linq.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\WindowsBase.dll" />
+    <ReferencePath Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\packages\Extended.Wpf.Toolkit.3.3.0\lib\net40\Xceed.Wpf.AvalonDock.dll" />
+    <ReferencePath Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\packages\Extended.Wpf.Toolkit.3.3.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll" />
+    <ReferencePath Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\packages\Extended.Wpf.Toolkit.3.3.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll" />
+    <ReferencePath Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\packages\Extended.Wpf.Toolkit.3.3.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll" />
+    <ReferencePath Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\packages\Extended.Wpf.Toolkit.3.3.0\lib\net40\Xceed.Wpf.DataGrid.dll" />
+    <ReferencePath Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\packages\Extended.Wpf.Toolkit.3.3.0\lib\net40\Xceed.Wpf.Toolkit.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\AccentStyleWindow.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Add_service.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Agree.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\auto.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Calc.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Change_pass.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Credit_calc.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Credit_page.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\first.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\History.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Info_user.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Is_main_manager.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\main_user_window.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\My_contract.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Personal_Area.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Question.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\register.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\Services.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\transaction.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\App.g.cs" />
+    <Compile Include="D:\Файлы учеба\5 sem\course\Manager\Course_kepeer_1\Course_kepeer_1\obj\Debug\GeneratedInternalTypeHelper.g.cs" />
+  </ItemGroup>
+</Project>

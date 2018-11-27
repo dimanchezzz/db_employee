@@ -115,10 +115,7 @@ namespace Course_kepeer_1
             User.Content = new My_contract();
         }
 
-        private void MenuItem_Click_9(object sender, RoutedEventArgs e)
-        {
-            User.Content = new History();
-        }
+       
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {

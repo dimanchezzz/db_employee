@@ -31,7 +31,6 @@
         </StackPanel>
         <Button x:Name="agree" Click="agree_Click" FontSize="30" Height="60" Width="150" Content="Edit" Margin="185,0,0,59" VerticalAlignment="Bottom" HorizontalAlignment="Left" />
         <Button x:Name="save" Click="save_Click" FontSize="30" Height="60" Width="150" Content="Save" Margin="495,0,0,59" VerticalAlignment="Bottom" HorizontalAlignment="Left" />
-        <Button x:Name="delete" Click="delete_Click" FontSize="30" Height="60" Width="150" Content="Drop" Margin="495,0,0,429" VerticalAlignment="Bottom" HorizontalAlignment="Left" />
 
     </Grid>
 </Page>

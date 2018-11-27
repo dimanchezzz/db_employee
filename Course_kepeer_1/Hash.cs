@@ -11,6 +11,8 @@ namespace Course_kepeer_1
     class Hash
     {
         public static string connect_str = @"Data Source=DESKTOP-57CME0L;Initial Catalog=Bank_DB;User Id = bank_manager; Password = system";
+        public static string connect_str_manager = @"Data Source=DESKTOP-57CME0L;Initial Catalog=Bank_DB;User Id = Main_manager; Password = system";
+
         public static string GetHash(string  password)
         {
             byte[] bytes = Encoding.Unicode.GetBytes(password.ToString());
